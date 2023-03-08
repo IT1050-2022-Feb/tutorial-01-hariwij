@@ -24,6 +24,6 @@ int main() {
   printf("Enter distance traveled : ");
   scanf("%d", &distance);
   fee = distance <= 30 ? distance * 50 : (distance - 30) * 40 + 30 * 50;
-  printf("Total fee : %d", fee);
+
   return 0;
 }
